@@ -13,3 +13,6 @@ services:
     bot:
         build: ./BOT
         container_name: bot
+    scraper:
+        build: ./SCRAPER
+        container_name: scraper

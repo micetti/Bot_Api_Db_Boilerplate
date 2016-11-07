@@ -4,7 +4,7 @@ import time
 import telepot
 from connect_to_api import send_message_and_get_echo
 
-TOKEN = '<Get you own Token from Telegrams BotFather>'
+TOKEN = '272432252:AAGXjxfQTSrIoUIT2pJ5LJfZLhlWCjpzTJY'
 
 def echo(message):
     content_type, chat_type, chat_id = telepot.glance(message)
