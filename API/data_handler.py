@@ -14,3 +14,6 @@ def get_top_five_strings_from_stack():
     for bytes_string in byte_string_list:
         string_list.append(str(bytes_string,'utf-8'))
     return string_list
+
+def get_flat(flat_name):
+    return redis.get(flat_name)

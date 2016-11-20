@@ -1,0 +1,11 @@
+user:
+    key: chat-id
+    values:
+        name
+        flat-name
+        value
+
+flat:
+    key: flat-name
+    values:
+        member-chat-id-list:

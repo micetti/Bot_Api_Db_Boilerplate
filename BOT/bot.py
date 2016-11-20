@@ -9,7 +9,7 @@ TOKEN = '272432252:AAGXjxfQTSrIoUIT2pJ5LJfZLhlWCjpzTJY'
 def echo(message):
     content_type, chat_type, chat_id = telepot.glance(message)
     if content_type == 'text':
-        messages_list = send_message_and_get_echo(message['text'])
+        messages_list = send_message_and_get_echo(message['text'], chat_id)
         for message in messages_list:
             bot.sendMessage(chat_id, message)
 
